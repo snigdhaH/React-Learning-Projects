@@ -1,7 +1,7 @@
-# 🚀 React 0-to-Hero: 4 Week Checklist Plan
+# 🚀 React: 4 Week Checklist Plan
 
 A **practical, project-based** roadmap to go from **React beginner** to **mid-level developer** in 1 month.  
-Tick ✅ each item as you complete it.
+
 
 ---
 
