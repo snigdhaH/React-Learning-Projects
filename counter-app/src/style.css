@@ -1,0 +1,78 @@
+/* src/styles.css */
+:root{
+  --bg:#f3f4f6;
+  --card:#ffffff;
+  --text:#1f2937;
+  --primary:#3b82f6;
+  --primary-hover:#2563eb;
+  --secondary:#e5e7eb;
+  --secondary-hover:#d1d5db;
+  --danger:#ef4444;
+  --danger-hover:#dc2626;
+  --shadow:0 10px 25px rgba(0,0,0,.08);
+  --radius:16px;
+}
+
+html,body,#root{height:100%}
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.app{
+  min-height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.card{
+  width:20rem;            /* 320px */
+  padding:1.5rem;
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+
+.card-content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:1.5rem;
+}
+
+.count{
+  font-size:2.5rem;
+  font-weight:800;
+  line-height:1;
+}
+
+.buttons{
+  display:flex;
+  gap:1rem;
+}
+
+.btn{
+  padding:.5rem 1rem;
+  border:none;
+  border-radius:.5rem;
+  font-weight:600;
+  cursor:pointer;
+  transition:transform .06s ease, background-color .2s ease, filter .2s ease;
+}
+
+.btn:active{ transform:translateY(1px) scale(.98); }
+.btn:focus-visible{ outline:2px solid black; outline-offset:2px }
+
+.btn--primary{ background:var(--primary); color:#fff }
+.btn--primary:hover{ background:var(--primary-hover) }
+
+.btn--secondary{ background:var(--secondary); color:#111827 }
+.btn--secondary:hover{ background:var(--secondary-hover) }
+
+.btn--danger{ background:var(--danger); color:#fff }
+.btn--danger:hover{ background:var(--danger-hover) }
