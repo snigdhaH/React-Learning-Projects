@@ -20,7 +20,7 @@ A **practical, project-based** roadmap to go from **React beginner** to **mid-le
 
 ### 💻 Practice Projects
 - [x] Counter App (increment, decrement, reset)
-- [ ] Basic Todo List (add & delete tasks)
+- [x] Basic Todo List (add & delete tasks)
 - [x] Profile Card (data from props)
 
 ---
