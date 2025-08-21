@@ -9,19 +9,19 @@ A **practical, project-based** roadmap to go from **React beginner** to **mid-le
 **🎯 Goal:** Understand React basics, JSX, and component-driven thinking.
 
 ### 📚 Topics
-- [ ] Understand component-based architecture & Virtual DOM
-- [ ] Set up React app (Vite or CRA)
-- [ ] Learn JSX syntax & embedding expressions
-- [ ] Create functional components
-- [ ] Pass props & use children
-- [ ] Manage state with `useState`
-- [ ] Handle events (`onClick`, `onChange`)
-- [ ] Render lists with `.map()` & conditional rendering
+- [x] Understand component-based architecture & Virtual DOM
+- [x] Set up React app (Vite or CRA)
+- [x] Learn JSX syntax & embedding expressions
+- [x] Create functional components
+- [x] Pass props & use children
+- [x] Manage state with `useState`
+- [x] Handle events (`onClick`, `onChange`)
+- [x] Render lists with `.map()` & conditional rendering
 
 ### 💻 Practice Projects
-- [ ] Counter App (increment, decrement, reset)
+- [x] Counter App (increment, decrement, reset)
 - [ ] Basic Todo List (add & delete tasks)
-- [ ] Profile Card (data from props)
+- [x] Profile Card (data from props)
 
 ---
 
