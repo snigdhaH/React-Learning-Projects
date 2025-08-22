@@ -30,14 +30,14 @@ A **practical, project-based** roadmap to go from **React beginner** to **mid-le
 
 ### 📚 Topics
 - [ ] Use `useEffect` for side effects
-- [ ] Understand controlled vs uncontrolled components
-- [ ] Build and manage forms
-- [ ] Fetch data from APIs (fetch/axios)
-- [ ] Lift state up & pass callbacks between components
-- [ ] Organize reusable components
+- [x] Understand controlled vs uncontrolled components
+- [x] Build and manage forms
+- [x] Fetch data from APIs (fetch/axios)
+- [x] Lift state up & pass callbacks between components
+- [x] Organize reusable components
 
 ### 💻 Practice Projects
-- [ ] Weather App (OpenWeather API)
+- [x] Weather App (OpenWeather API)
 - [ ] Searchable User List (real-time filtering)
 - [ ] Signup Form with Validation
 
